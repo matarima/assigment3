@@ -1,0 +1,75 @@
+@media(min-width:768px) {
+    .img-relative {
+        display: none;
+    }
+
+    .info-row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .info-row-project{
+        grid-template-columns: repeat(3, 1fr);
+    }
+ 
+    .content-project {
+        padding: 16px;
+        border-bottom: 1px solid #f7f7f7;
+    }
+    
+    .info-row-project {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    
+    /* Digital CV */
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+    }
+    
+    .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: start;
+    padding: 20px 0;
+    }
+    
+    .grid-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 8px 16px ;
+        gap: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .grid-scopes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 8px 16px ;
+        gap: 10px;
+    }
+    
+    .col i{
+        justify-items: center;
+    }
+
+    .text {
+        text-align: center;
+        
+    }
+    
+    .border-number {
+        border: 2px solid red;
+        border-radius: 25px;
+    }
+    
+    .border-timeline{
+        border-bottom: dotted 1px blue;
+    }
+
+}
